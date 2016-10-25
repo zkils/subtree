@@ -1,0 +1,80 @@
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom:6px;
+}
+.Item{
+
+}
+.Item:first-child{
+    margin: 0 -4px 0 23px;
+}
+.Item:nth-child(2){
+    flex:1;
+}
+.Item:last-child{
+    margin: 0 22px 0 0;
+}
+
+.Button{
+    /*width: 105px;*/
+    /*height: 85px;*/
+    /*box-sizing: border-box;*/
+    /*border: 1px solid #000000;*/
+    /*background-color: #171717;*/
+    /*box-shadow: inset 0px 2px 0px 0px rgba(133,133,133,1);*/
+    margin-right: 0.5px;
+}
+.ButtonSelected{}
+.ButtonSelected > div{
+    -webkit-filter: invert(100%);
+}
+.ButtonSelected:active > div{
+    -webkit-filter: none;
+}
+.ButtonSelected path{
+    fill:#000000;
+}
+.ButtonSelected:active path{
+    fill:#ffffff;
+}
+/*.RepeatButton{*/
+    /*composese:Button;*/
+    /*width: 120px;*/
+    /*height: 85px;*/
+/*}*/
+/*.Button:active{*/
+    /*border:2px solid #ffffff;*/
+    /*background-color:rgb(0, 89, 107);*/
+/*}*/
+
+/*.Button:disabled{*/
+    /*background:#171717;*/
+    /*color:#303030;*/
+    /*border:2px solid #000000;*/
+    /*pointer-events :none;*/
+/*}*/
+.Button:disabled path{
+    opacity: .3;
+}
+.Button:disabled>div>div{
+    opacity: .3;
+}
+
+
+
+/*.ButtonNormal{*/
+
+/*}*/
+/*.ButtonSelected{*/
+    /*border:none;*/
+    /*background-color:#00D4FF;*/
+    /*color:#000000;*/
+    /*box-shadow:none;*/
+/*}*/
+.ButtonIcon{
+    width:80px;
+    height:60px;
+}

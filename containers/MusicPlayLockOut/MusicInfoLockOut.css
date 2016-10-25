@@ -1,0 +1,14 @@
+.Section{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.Title{
+    padding-top: 50px;
+    font-family: 'OpenSans-Semibold';
+    font-size: 60px;
+    line-height: 120%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -1,0 +1,24 @@
+
+.Base{
+    margin: 0 auto;
+    position: relative;
+    background: #000000;
+    width: 600px;
+    min-height: 6px;
+}
+
+.BarFragment{
+    position: absolute;
+    display: block;
+    height: 100%;
+    background: #00D4FF;
+    width:0%;
+}
+
+.Buffer{
+    position: absolute;
+    display: block;
+    height: 100%;
+    background-color: #383838;
+    width:0%;
+}

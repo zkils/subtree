@@ -1,0 +1,15 @@
+.Vertical{
+    margin-left :90%;
+}
+.Horizontal{
+    margin-top:-2em;
+}
+.Tip{
+    position: absolute;
+    background-Color: rgb(24, 24, 24);
+    border-Radius: 4px;
+    padding: 5px;
+    border: 1px solid rgb(69, 68, 68);
+    z-index:5;
+    font-size:18px;
+}

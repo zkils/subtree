@@ -1,0 +1,32 @@
+.Wrapper{
+    position: relative;
+    width: 760px;
+}
+
+.InputWrapper{
+    position: absolute;
+    top: 5px;
+    left: 339px;
+    width: 417px;
+}
+
+
+.InputBox{
+    padding: 0 24px 6px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 40px;
+    color: black;
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+    border-radius: 3px;
+    text-align: right;
+    font-family: Open-Sans;
+}
+
+.KeyPad{
+    width: 560px;
+    margin-top: 19px;
+    margin-left: 120px;
+}

@@ -1,0 +1,27 @@
+
+.PlayArrow{
+    background: url("./img/lockout_btn.png") no-repeat 0px 0px;
+    background-position: -240px 0;
+}
+.PlayArrow:active{
+    background-position: -240px -360px;
+    margin-left:2px;
+}
+.Pause{
+    background: url("./img/lockout_btn.png") no-repeat 0px 0px;
+    background-position: -120px 0;
+}
+.Pause:active{
+    background-position: -120px -360px;
+    margin-left:2px;
+}
+
+
+.SkipPrevious{
+    background: url("./img/lockout_btn.png") no-repeat 0px 0px;
+    background-position: 0 0;
+}
+.SkipNext{
+    background: url("./img/lockout_btn.png") no-repeat 0px 0px;
+    background-position: -360px 0;
+}

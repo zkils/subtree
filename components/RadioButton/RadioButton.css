@@ -1,0 +1,23 @@
+
+.Base{
+    margin: 2px;
+    overflow: auto;
+    padding: 4px;
+}
+
+.NonBackground > div{
+    background: none;
+    border:none;
+    box-shadow: none;
+}
+
+.NonBackground > div:active{
+    background: none;
+    border:none;
+    box-shadow: none;
+}
+
+.Horizontal > div{
+    float:left;
+    width:240px;
+}

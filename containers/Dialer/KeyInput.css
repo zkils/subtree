@@ -1,0 +1,85 @@
+.Wrapper{
+    position: relative;
+    width: 340px;
+    padding: 5px 0 0 5px;
+}
+.NumKeyWrapper{
+}
+.FuncKeyWrapper{
+    position: absolute;
+    top: 262px;
+    width: 760px;
+}
+
+.Base{
+    outline:none;
+    width: 106px;
+    height: 60px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    box-sizing:border-box;
+    color: white;
+    background-color: #191919;
+    font-size: 39px;
+    border-radius: 5px;
+    font-family: open-sans;
+    padding: 0 0 6px 0px;
+
+}
+.NumKey{
+    composes: Base;
+}
+
+.NumKey:active{
+    background-color: #00596B;
+    color: #ffffff;
+    box-shadow: 0 0 0 2px #ffffff;
+}
+
+
+.FuncKey{
+    composes: Base;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.FuncKey:active{
+    background-color: #00596B;
+    color: #ffffff;
+    box-shadow: 0 0 0 2px #ffffff;
+}
+.FuncKey:disabled{
+    -webkit-filter: brightness(0.7);
+    cursor: default;
+    pointer-events: none;
+}
+
+.FuncKey:nth-child(2){
+    margin-left: 110px;
+}
+
+.FuncKey:nth-child(3){
+    width: 415px;
+    background-color: #57ca50;
+    margin-left: 3px;
+}
+
+.FuncKey:nth-child(3):active{
+    background-color: #2c9e2b;
+    box-shadow: 0 0 0 2px #ffffff;
+}
+
+.KeyIcon{
+    zoom: 2;
+    height: 30px;
+    margin: 0;
+}
+
+.CallIcon{
+    composes:KeyIcon;
+}
+
+.CallBtnText{
+}

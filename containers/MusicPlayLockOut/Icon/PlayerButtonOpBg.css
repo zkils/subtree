@@ -1,0 +1,19 @@
+
+.PlayArrow{
+    background: url("./img/player_theme2.png") no-repeat 0px 0px;
+    background-position: -240px 0;
+}
+.Pause{
+    background: url("./img/player_theme2.png") no-repeat 0px 0px;
+    background-position: -320px 0;
+}
+
+
+.SkipPrevious{
+    background: url("./img/player_theme2.png") no-repeat 0px 0px;
+    background-position: -160px 0;
+}
+.SkipNext{
+    background: url("./img/player_theme2.png") no-repeat 0px 0px;
+    background-position: -400px 0;
+}

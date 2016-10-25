@@ -1,0 +1,61 @@
+.Cover{
+    margin: 2px 0 0 11px;
+    float: left;
+}
+.Cover img{
+    border:1px solid #999999;
+}
+.mainTitle{
+    font-family: 'OpenSans-Regular';
+    font-size: 21pt;
+    margin-top: 10px;
+    margin-left: 1px;
+    float: left;
+    width: 670px;
+    line-height: 130%;
+    padding-left: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.mainArea{
+    flex:1;
+    margin-top: 2px;
+}
+.description{
+    font-family: 'OpenSans-Regular';
+    font-size: 21pt;
+    margin-left: 1px;
+    float: left;
+    width: 670px;
+    line-height: 130%;
+    padding-left: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.selected{
+    background-color:#00D4FF;
+}
+
+.Caption{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+.Caption>div{
+    flex: 1;
+    font-size: 30px;
+    color: white;
+}
+
+.ListItem{
+
+}
+.ListItem:active p{
+    color:#ffffff !important;
+}

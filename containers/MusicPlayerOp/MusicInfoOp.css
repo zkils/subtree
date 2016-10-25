@@ -1,0 +1,20 @@
+.Section{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.Title{
+    padding-top: 27px;
+    font-family: 'OpenSans-Semibold';
+    font-size: 60px;
+    line-height: 120%;
+    height: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.Desc{
+    padding-top: 16px;
+    font-size: 26px;
+    height: 42px;
+}
