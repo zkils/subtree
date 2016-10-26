@@ -1,0 +1,48 @@
+.ObButton{
+    border: 0;
+    color: white;
+    font-size: 20px;
+    outline:none;
+    width: 110px;
+    height: 65px;
+    composes: CompFontFamily from "resources/css/fonts.css";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.ObButton > div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ObButtonEnabled{
+    composes: BtnEnabledImage from "resources/css/backgrounds.css";
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.ObButtonPressed{
+    composes: BtnPressedImage from "resources/css/backgrounds.css";
+    background-repeat: no-repeat;
+}
+.ObButtonDisabled{
+    background: #c3bdb1;
+    color: #929292;
+}
+.ObButton__Label{
+    display:inline-block;
+}
+
+
+.ObButtonTxtPressed{
+    color:#a0a0a0 ;
+}
+.ObButtonTxtEnabled{ 
+    background-color:transparent;
+}
+.ObButtonTxtDisabled{
+    color:#999999;
+    background-color:transparent;
+}

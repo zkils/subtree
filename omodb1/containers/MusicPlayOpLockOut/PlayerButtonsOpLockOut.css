@@ -1,0 +1,90 @@
+.Wrapper{
+    position: relative;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.PlayerButton{
+
+}
+.PlayerButtonSelected{}
+/*.PlayerButtonSelected > div{*/
+    /*-webkit-filter: invert(100%);*/
+/*}*/
+/*.PlayerButtonSelected:active > div{*/
+    /*-webkit-filter: none;*/
+/*}*/
+/*.PlayerButtonSelected path{*/
+    /*fill:#000000;*/
+/*}*/
+/*.PlayerButtonSelected:active path{*/
+    /*fill:#ffffff;*/
+/*}*/
+/*.RepeatButton{*/
+/*composese:Button;*/
+/*width: 120px;*/
+/*height: 85px;*/
+/*}*/
+/*.PlayerButton:active{*/
+/*border:2px solid #ffffff;*/
+/*background-color:rgb(0, 89, 107);*/
+/*}*/
+
+/*.PlayerButton:disabled{*/
+/*background:#171717;*/
+/*color:#303030;*/
+/*border:2px solid #000000;*/
+/*pointer-events :none;*/
+/*}*/
+.PlayerButton:disabled path{
+    opacity: .3;
+}
+.PlayerButton:disabled>div>div{
+    opacity: .3;
+}
+
+.PlayerButton:first-child{
+    margin-left: 100px;
+}
+.PlayerButton:nth-child(2){
+    margin-left: 120px;
+}
+.PlayerButton:last-child{
+    margin-left: 120px;
+}
+
+
+/*.PlayerButtonNormal{*/
+
+/*}*/
+/*.PlayerButtonSelected{*/
+/*border:none;*/
+/*background-color:#00D4FF;*/
+/*color:#000000;*/
+/*box-shadow:none;*/
+/*}*/
+.PlayerButtonIcon{
+    width:120px;
+    height:120px;
+}
+
+.ForwardButton:active>div>div>div>div{
+    background-position: 0 -360px;
+    margin-left:2px;
+
+}
+.ForwardButton:disabled:active>div>div>div>div{
+    background-position: -360px 0px;
+}
+.BackwardButton{
+
+}
+.BackwardButton:active>div>div>div>div{
+
+    background-position: -360px -360px;
+    margin-left:2px;
+}
+
+.BackwardButton:disabled:active>div>div>div>div{
+    background-position: 0 0;
+}

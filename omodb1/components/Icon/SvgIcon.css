@@ -1,0 +1,12 @@
+.Icon{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin:6px;
+}
+.IconColor{
+    composes: IconColor from "resources/css/colors.css";
+}
+.IconHoverColor{
+    composes: IconHoverColor from "resources/css/colors.css";
+}

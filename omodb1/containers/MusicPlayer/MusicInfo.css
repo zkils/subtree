@@ -1,0 +1,60 @@
+.Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+}
+.AlbumCover{
+    padding: 9px;
+    flex:1;
+}
+.AlbumCover > img{
+    width: 140px;
+    height: 140px;
+    box-sizing: border-box;
+    border: 1px solid #b8b8b8;
+}
+.SongInfoSection{
+    flex:5;
+    height:150px;
+    margin-left: 25px;
+}
+
+.DetailInfo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:36px;
+    color:#ffffff;
+    padding: 5px;
+}
+
+.DetailInfo > :first-child{
+}
+
+
+.DetailInfo > :last-child{
+    padding-left: 10px;
+    flex:7;
+    max-width: 526px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 40px;
+}
+
+.subDesc{
+    -webkit-filter: brightness(0.6);
+}
+
+
+
+
+.DetailInfo:nth-child(2) {
+    /*-webkit-filter: brightness(0.6);*/
+    font-size: 32px;
+}
+.DetailInfo:last-child{
+    /*-webkit-filter: brightness(0.6);*/
+    font-size: 32px;
+}

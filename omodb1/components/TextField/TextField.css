@@ -1,0 +1,33 @@
+.WrapperBase{
+    position: relative;
+}
+.Base{
+    padding: 0 24px 3px;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    font-family: 'OpenSans';
+    font-size: 26px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.Base:active{
+    background-color:#696969;
+    color:white;
+}
+
+.InputBase{
+    width: 400px;
+    height: 60px;
+    composes: Base;
+}
+
+.TextareaBase{
+    resize: none;
+    composes: Base;
+}
+
+.TextareaBase:focus, .InputBase:focus{
+    outline: none;
+    border: 5px solid #00D4FF;
+}

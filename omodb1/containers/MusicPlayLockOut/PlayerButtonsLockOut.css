@@ -1,0 +1,31 @@
+.Wrapper{
+    position: relative;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.PlayerButton{
+
+}
+.PlayerButton:disabled path{
+    opacity: .3;
+}
+.PlayerButton:disabled>div>div{
+    opacity: .3;
+}
+
+.PlayerButton:first-child{
+    margin-left: 142px;
+}
+.PlayerButton:nth-child(2){
+    margin-left: 70px;
+}
+.PlayerButton:last-child{
+    margin-left: 70px;
+
+}
+
+.PlayerButtonIcon{
+    width:80px;
+    height:80px;
+}

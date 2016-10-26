@@ -1,0 +1,15 @@
+.Vertical{
+    position:absolute;
+}
+
+.Icon{
+
+}
+
+.Icon:active path{
+    fill:#00D4FF;
+}
+.Label{
+    font-size:26px;
+    color:#ffffff;
+}

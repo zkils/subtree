@@ -1,0 +1,50 @@
+.Album{
+    background: url("./img/icon_album.png") no-repeat -8px -8px;
+}
+
+.ArrowBack{
+    background: url("./img/icon_back.png") no-repeat 8px 5px;
+}
+
+.MoreHoriz{
+    background: url("./img/icon_more.png") no-repeat 8px 5px;
+}
+
+.Artist{
+    background: url("./img/icon_artist.png") no-repeat -8px -8px;
+}
+
+.AudioTrack{
+    background: url("./img/icon_song.png") no-repeat -8px -8px;
+}
+
+.RepeatOne{
+    background: url("./img/icon_onerepeat.png") no-repeat 0px 0px;
+}
+
+.SkipPrevious{
+    background: url("./img/icon_backward.png") no-repeat 0px 0px;
+}
+.SkipNext{
+    background: url("./img/icon_forward.png") no-repeat 0px 0px;
+}
+.PlayArrow{
+    background: url("./img/icon_play.png") no-repeat 0px 0px;
+}
+.Pause{
+    background: url("./img/icon_pause.png") no-repeat 0px 0px;
+}
+.Shuffle{
+    background: url("./img/icon_shuffle.png") no-repeat 0px 0px;
+}
+.Repeat{
+    background: url("./img/icon_repeat.png") no-repeat 0px 0px;
+}
+
+.PlayArrowS{
+    background: url("./img/icon_player.png") no-repeat 0px 0px;
+}
+
+.Menu{
+    background: url("./img/icon_current.png") no-repeat 0px 0px;
+}
