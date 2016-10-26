@@ -14,9 +14,9 @@ export default  {
   spacing: spacing,
   fontFamily: 'OpenSans-Regular',
   palette: {
-      primary1Color: grey900,
+      primary1Color: cyanA400,
       primary2Color: cyanA400,      //obigo primary color
-      primary3Color: grey500,
+      primary3Color: cyanA400,
       accent1Color: cyanA400,
       accent2Color: cyan900,
       accent3Color: teal800,        //obigo second primary color
