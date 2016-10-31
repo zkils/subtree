@@ -11,7 +11,7 @@ export const red900  = '#b71c1c';
 export const redA100  = '#ff8a80';
 export const redA200 = '#ff5252';
 export const redA400  = '#ff1744';
-export const redA700  = '#d50000';
+export const redA700  = '#d50001';
 
 export const pink50  = '#fce4ec';
 export const pink100  = '#f8bbd0';
